@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Gujarat – Drive the Future | Government of Gujarat</title>
+    <link rel="stylesheet" href="output.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #15803d;
+            --secondary: #0ea5e9;
+            --background: #f0fdf4;
+        }
+
+        body {
+            font-family: 'Public Sans', sans-serif;
+            background-color: var(--background);
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Outfit', sans-serif;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        body {
+            background-image: url('./assets/hero.avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="text-slate-900">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 glass border-b border-green-100">
+        <div class="container mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-green-600 p-2 rounded-xl shadow-lg shadow-green-200">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    </svg>
+                </div>
+                <div>
+                    <span class="block text-xl font-bold tracking-tight">EV Gujarat</span>
+                    <span class="block text-[10px] uppercase tracking-[0.2em] font-semibold text-green-700">Drive the
+                        Future</span>
+                </div>
+            </div>
+            <div class="hidden md:flex items-center gap-8 font-medium text-slate-600">
+                <a href="index.html" class="hover:text-green-600 transition-colors">Home</a>
+                <a href="#incentives" class="hover:text-green-600 transition-colors">Subsidies</a>
+                <a href="#charging" class="hover:text-green-600 transition-colors">Charging</a>
+                <a href="#benefits" class="hover:text-green-600 transition-colors">Benefits</a>
+                <!-- <button class="bg-green-600 text-white px-6 py-2.5 rounded-full font-bold shadow-xl shadow-green-200 hover:bg-green-700 transition-all active:scale-95">Register EV</button> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Register Ev Form -->
+    <section class=" w-full bg-linear-to-r from-white/90 via-white/80 to-transparent z-90 mt-20">
+        <div class="flex flex-col p-5 w-full md:max-w-120">
+            <form action="thanks.html"
+                class="bg-white/55 p-5 flex flex-col gap-3 w-full rounded-xl ring-1 ring-green-600">
+                <h1 class="text-center font-bold text-3xl p-5 text-green-600">Register EV</h1>
+                <input type="text" required placeholder="Enter your Full Name"
+                    class="bg-slate-200 py-2 px-4 rounded w-full">
+                <input type="email" required placeholder="Enter your Email"
+                    class="bg-slate-200 py-2 px-4 rounded w-full">
+                <input type="tel" required placeholder="Enter your Mobile Number"
+                    class="bg-slate-200 py-2 px-4 rounded w-full">
+                <select required  class="bg-slate-200 py-2 px-4 rounded w-full">
+                    <option value="" selected disabled>Category</option>
+                    <option value=""  >Two wheeler</option>
+                    <option value=""  >Four wheeler</option>
+                    <option value=""  >Other </option>
+                </select>
+                <input type="text" required placeholder="Enter your City"
+                    class="bg-slate-200 py-2 px-4 rounded w-full">
+                    <button id="registerBtn" type="submit" class="py-2 px-4 rounded-lg w-full bg-green-600 text-lg font-bold text-white hover:bg-green-700 transition-all active:scale-95 duration-200">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-20 bg-white border-t border-slate-100">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-slate-400 text-sm mb-4 tracking-widest uppercase font-bold">Government of Gujarat</p>
+            <p class="text-slate-600 max-w-xl mx-auto mb-10">Building a sustainable future for 7.5 Crore citizens
+                through clean energy and smart mobility.</p>
+            <div class="flex justify-center gap-8 text-slate-400 font-medium">
+                <a href="#" class="hover:text-green-600">Policy Document</a>
+                <a href="#" class="hover:text-green-600">Dealer Login</a>
+                <a href="#" class="hover:text-green-600">Contact Help</a>
+            </div>
+            <div class="mt-16 pt-10 border-t border-slate-100 text-slate-300 text-xs">
+                © 2026 Department of Transport, Government of Gujarat. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <script>
+    </script>
+</body>
+
+</html>
