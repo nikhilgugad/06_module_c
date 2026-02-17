@@ -4,6 +4,19 @@
 
 
 
+Project Overview : A fully responsive and goodlooking website design for the promotion of EVs in Gujarat showcasing their benefits, incentives and other plans with a form to show your interest in Evs.
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Tech Stack used //
 1. HTML
